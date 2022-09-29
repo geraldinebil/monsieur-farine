@@ -1,0 +1,258 @@
+body {
+
+    background-image: url("desseinviennoiserie.jpg");
+   background-color: rgba(240, 253, 211, 0.5);
+   background-blend-mode: darken;
+}
+h1 {
+   color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+   display: inline;
+   font-weight: lighter;
+   background-image: url(ble-mur.jpg);
+   background-repeat: no-repeat;
+background-size: 600px;
+text-shadow: rgb(226, 3, 21) 1px 0 10px;
+}
+
+.back{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rue{
+    text-align: center;
+    font-weight: lighter;
+}
+div.image {
+    
+    text-align:center;
+}h3 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    display: inline;
+}
+p.bonbon {
+    color: rgb(236, 0, 20);
+    font-style: italic;
+    font-size:50px;
+    font-family: 'Pacifico', cursive;
+    align-self: center;
+    text-align: center;
+    font-weight: 500;
+   
+
+}
+img.gateau{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beignet{
+text-align: center;
+width: 1750px;
+height: 300px;
+}
+
+.lien {
+    text-align: center;
+    font-size: x-large;
+    color: rgb(206, 0, 17);
+    font-weight: lighter;
+    background-color: rgba(170, 159, 159, 0.5);
+    display: inline;
+    font-family: 'Pacifico', cursive;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+p {
+    font-family: 'Pacifico', cursive;
+font-size: 100px;
+text-align: center;
+font-weight: lighter;
+}
+
+.colonneune{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.colonneune img{
+    display: block;
+    margin: 0px auto;
+    width: 70%;
+    
+}
+
+.ligneune{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.ligneune p{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+font-size: 35px;
+font-weight: bold;
+}
+
+.colonnedeux{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.colonnedeux img{
+  display: block;
+    margin: 0px auto;
+    width: 70%;  
+}
+.lignedeux{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.lignedeux p{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+font-weight: bold;
+}
+
+.japon{
+    background-image: url(1009518-Drapeau_du_Japon.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center;
+    color: rgb(0, 0, 0);
+}
+
+.italie{
+    background-image: url(1009516-Drapeau_de_lItalie.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center;
+    color: rgb(25, 0, 255);
+} 
+
+.mexique{
+    background-image: url(1009548-Drapeau_du_Mexique.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center;
+    color: rgb(81, 208, 247);
+
+}
+
+.maroc{
+    background-image: url(drapeau-maroc-tissu_160901-795\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center;
+    color: fuchsia;
+
+}
+
+.albanie{
+    background-image: url(images.png);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center;
+    color: rgb(112, 233, 81);
+
+}
+
+.angleterre{
+    background-image: url(s-l500.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center; 
+    color: rgb(46, 43, 46);
+
+}
+
+.bresil{
+    background-image: url(1009466-Drapeau_du_Brésil.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center; 
+    color: rgb(255, 0, 0);
+
+}
+
+.australie{
+    background-image: url(Drapeau-australien.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center;  
+    color: rgb(217, 255, 0);
+
+}
+
+.portugal{
+    background-image: url(drapeau-portugal-90x150cm\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center;  
+    color: rgb(12, 11, 10);
+
+}
+
+.france{
+    background-image: url(stickers-drapeau-francais.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 80px;
+    background-position: center;  
+    color: rgb(221, 250, 57);
+
+}
+
+.bread{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.breaddeux{
+    text-align: center;
+    width: 600px;
+    height: 450px;
+}
+
+.table{
+    text-align: center;
+    width: 650px;
+    height: 450px;
+    margin: 50px;
+}
+
+.accueil{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.equipe{
+    text-align: center;
+    width: 650px;
+    height: 450px;
+    margin: 50px; 
+}
+
+.colonne3{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
