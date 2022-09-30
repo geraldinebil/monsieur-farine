@@ -14,6 +14,7 @@ h1 {
    background-repeat: no-repeat;
 background-size: 600px;
 text-shadow: rgb(226, 3, 21) 1px 0 10px;
+
 }
 
 .back{
@@ -34,16 +35,19 @@ div.image {
     font-size: 40px;
     font-family: 'Pacifico', cursive;
     display: inline;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
 }
 p.bonbon {
-    color: rgb(236, 0, 20);
+    color: rgb(0, 0, 0);
     font-style: italic;
     font-size:50px;
     font-family: 'Pacifico', cursive;
     align-self: center;
     text-align: center;
     font-weight: 500;
-   
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
 
 }
 img.gateau{
@@ -54,7 +58,7 @@ img.gateau{
 
 .beignet{
 text-align: center;
-width: 1750px;
+width: 2000px;
 height: 300px;
 }
 
@@ -80,6 +84,8 @@ p {
 font-size: 100px;
 text-align: center;
 font-weight: lighter;
+
+
 }
 
 .colonneune{
@@ -223,7 +229,9 @@ font-weight: bold;
 .bread{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    text-align: center;
+    text-align: justify;
+    margin: 100px;
+    
 }
 
 .breaddeux{
@@ -255,4 +263,108 @@ font-weight: bold;
     display: flex;
     flex-wrap: nowrap;
     
+}
+
+.accueil{
+    text-align: center;
+    align-self: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.maps{
+    text-align: center;
+    margin: 100px;
+}
+.phrase2{
+    font-family: 'Pacifico', cursive;
+ font-size: 30px;
+ display: flex;
+ align-items: center;
+ font-weight: bolder;
+ background-color: rgb(255, 255, 255);
+ opacity: 0.7;
+ width: 600px;
+ height: 300px;
+}
+
+.colonne5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 100px;
+}
+
+.image2{
+    width: 600px;
+    height: 350px;
+}
+
+.image3{
+    width: 600px;
+    height:350px ;
+}
+
+.phrase4{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+width: 1250px;
+margin: 30px;
+font-size: 80px;
+text-align: center;
+background-position: left;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+font-size: 100px;
+}
+
+.café{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    
+}
+
+.lareunion{
+    display: block;
+    margin-left: auto;
+    margin: auto;
+    width: 1000px;
+}
+
+.chocolat{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-weight: bolder;
+}
+
+.cabosse{
+    display: block;
+    margin-left: auto;
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+}
+
+.the{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-weight: bolder;
+}
+
+.feuille{
+    display: block;
+    margin-left: auto;
+    margin: auto;
+    width: 1000px;
+    height: 300px;
 }
